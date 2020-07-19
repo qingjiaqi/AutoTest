@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="0" name="TestSuite" time="7.97" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\workspace\api_auto_7_v9.2_shizhan"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="F:\workspace\api_auto_7_v9.2_shizhan"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="F:\workspace\api_auto_7_v9.2_shizhan\target\surefire\surefirebooter365312553987677510.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1.BF-\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;F:\oracle\product\10.2.0\db_1\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\Program Files (x86)\Tencent\QQ\Bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Mozilla Firefox;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\shanhai\tools\apache-ant-1.8.1\bin;C:\Windows\system32\wbem;E:\shanhai\tools\selenium\maven\apache-maven-3.3.9\apache-maven-3.3.9\bin;F:\lr\strawberry-perl\perl\bin;C:\Program Files\Mozilla Firefox;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;;d:\Microsoft VS Code\bin;C:\PyCharm Community Edition 2018.3.2\bin;;."/>
+    <property name="surefire.test.class.path" value="F:\workspace\api_auto_7_v9.2_shizhan\target\test-classes;F:\workspace\api_auto_7_v9.2_shizhan\target\classes;F:\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;F:\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;F:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;F:\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;F:\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;F:\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;F:\repository\org\apache\poi\poi\3.17\poi-3.17.jar;F:\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;F:\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;F:\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;F:\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;F:\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;F:\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;F:\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;F:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;F:\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;F:\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;F:\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;F:\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;F:\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;F:\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;F:\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;F:\repository\com\google\guava\guava\20.0\guava-20.0.jar;F:\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;F:\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator.BF-20180428VRFN"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="F:\workspace\api_auto_7_v9.2_shizhan\target\test-classes;F:\workspace\api_auto_7_v9.2_shizhan\target\classes;F:\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;F:\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;F:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;F:\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;F:\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;F:\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;F:\repository\org\apache\poi\poi\3.17\poi-3.17.jar;F:\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;F:\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;F:\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;F:\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;F:\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;F:\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;F:\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;F:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;F:\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;F:\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;F:\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;F:\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;F:\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;F:\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;F:\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;F:\repository\com\google\guava\guava\20.0\guava-20.0.jar;F:\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;F:\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="F:\workspace\api_auto_7_v9.2_shizhan\target\surefire\surefirebooter365312553987677510.jar F:\workspace\api_auto_7_v9.2_shizhan\target\surefire\surefire6695517575871005912tmp F:\workspace\api_auto_7_v9.2_shizhan\target\surefire\surefire8491444243514675317tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="F:\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="1.499"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="0.095"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="0.1"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="0.116"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="1.123"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="register" time="0.12"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="login" time="0.121"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="login" time="0.124"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="login" time="0.139"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="login" time="0.147"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="login" time="0.106"/>
+  <testcase classname="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest" name="toAddProjectUserId" time="0.511"/>
+</testsuite>

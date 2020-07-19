@@ -1,0 +1,12 @@
+2019-02-27 19:35:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2019-02-27 19:35:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:52) ]  根据接口编号【4】获取到请求的url
+2019-02-27 19:35:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:57) ]  根据接口编号【4】获取到请求的接口类型
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterMobilephone}变量值:18990992100
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidMobilephone}变量值:123456789
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notRegisterYetMobilephone}变量值:18990992101
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterPassword}变量值:123456
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidPassword}变量值:12345
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${wrongPassword}变量值:1234567
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:63) ]  替换变量
+2019-02-27 19:35:36  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:68) ]  开始调用接口
+2019-02-27 19:35:37  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.getDemo(HttpUnit.java:119) ]  接口请求地址http://47.107.167.1:8585/appmall/api/app/msg/msg

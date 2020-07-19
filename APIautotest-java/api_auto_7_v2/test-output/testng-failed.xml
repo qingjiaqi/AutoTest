@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [接口项目]">
+  <test name="registTest(failed)">
+    <classes>
+      <class name="com.qj.api.auto.RegisterCase_v3">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.RegisterCase_v3 -->
+    </classes>
+  </test> <!-- registTest(failed) -->
+</suite> <!-- Failed suite [接口项目] -->

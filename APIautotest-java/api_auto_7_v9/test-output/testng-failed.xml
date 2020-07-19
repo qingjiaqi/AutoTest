@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [接口项目]">
+  <test name="registTest(failed)">
+    <classes>
+      <class name="com.qj.api.auto.cases.RegisterCase_v7">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.RegisterCase_v7 -->
+      <class name="com.qj.api.auto.cases.RechargeCase">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.RechargeCase -->
+    </classes>
+  </test> <!-- registTest(failed) -->
+  <test name="login(failed)">
+    <classes>
+      <class name="com.qj.api.auto.cases.RechargeCase">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.RechargeCase -->
+      <class name="com.qj.api.auto.cases.LoginCase">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.LoginCase -->
+    </classes>
+  </test> <!-- login(failed) -->
+  <test name="recharge(failed)">
+    <classes>
+      <class name="com.qj.api.auto.cases.RechargeCase">
+        <methods>
+          <include name="test1"/>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.RechargeCase -->
+    </classes>
+  </test> <!-- recharge(failed) -->
+</suite> <!-- Failed suite [接口项目] -->

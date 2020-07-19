@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口项目" duration-ms="280" started-at="2018-10-25T10:35:37Z" finished-at="2018-10-25T10:35:37Z">
+    <groups>
+    </groups>
+    <test name="registTest" duration-ms="280" started-at="2018-10-25T10:35:37Z" finished-at="2018-10-25T10:35:37Z">
+      <class name="com.qj.api.auto.RegisterCase_v3">
+        <test-method status="FAIL" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.RegisterCase_v3@50cbc42f]" name="test1" duration-ms="266" started-at="2018-10-25T18:35:37Z" data-provider="datas" finished-at="2018-10-25T18:35:37Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 3 parameters but the method com.qj.api.auto.RegisterCase_v3#test1 takes 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 3 parameters but the method com.qj.api.auto.RegisterCase_v3#test1 takes 2
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1337)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1225)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.qj.api.auto.RegisterCase_v3 -->
+    </test> <!-- registTest -->
+  </suite> <!-- 接口项目 -->
+</testng-results>

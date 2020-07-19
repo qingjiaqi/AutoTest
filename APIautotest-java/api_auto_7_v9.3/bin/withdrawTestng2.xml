@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  套件-->
+<suite name="接口项目">
+
+  <!-- 单个登录供其他鉴权用例调用 -->
+    <test name="loginSingle">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+     <!--  <class name="com.qj.api.auto.cases.LoginSingle"></class>  -->
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- 不需要登录的测试用例集合 -->
+  <test name='withdraw'>
+  <classes preserve-order="fales">
+  <class name="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest"></class>
+  <class name="com.qj.api.auto.cases.NeedLoginCaseProcessor"></class>
+<!--   <class name="com.qj.api.auto.cases.RechargeCase"></class> -->
+  </classes>
+  </test>
+  <!-- 配置报告监听 -->
+	<listeners>
+	<!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener> -->
+	<listener class-name="com.qj.api.auto.listener.ExtentTestNGIReporterListener"></listener>
+	</listeners>
+ 
+      
+    
+
+</suite> <!-- Suite -->

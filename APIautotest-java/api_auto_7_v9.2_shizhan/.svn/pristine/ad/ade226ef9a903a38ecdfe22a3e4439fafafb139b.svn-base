@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [接口项目]">
+  <test name="withdraw(failed)">
+    <classes>
+      <class name="com.qj.api.auto.cases.NotNeedLoginCaseProcessor">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.NotNeedLoginCaseProcessor -->
+      <class name="com.qj.api.auto.cases.NeedLoginCaseProcessor">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.NeedLoginCaseProcessor -->
+    </classes>
+  </test> <!-- withdraw(failed) -->
+</suite> <!-- Failed suite [接口项目] -->

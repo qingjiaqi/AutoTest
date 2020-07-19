@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口项目" duration-ms="2968" started-at="2019-03-01T14:33:35Z" finished-at="2019-03-01T14:33:38Z">
+    <groups>
+    </groups>
+    <test name="loginSingle" duration-ms="16" started-at="2019-03-01T14:33:35Z" finished-at="2019-03-01T14:33:35Z">
+    </test> <!-- loginSingle -->
+    <test name="withdraw" duration-ms="2931" started-at="2019-03-01T14:33:35Z" finished-at="2019-03-01T14:33:38Z">
+      <class name="com.qj.api.auto.cases.caseProcessor">
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="1189" started-at="2019-03-01T22:33:35Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":1,"code":"10001","data":null,"msg":"加标成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="128" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="117" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","":"1000","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="101" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="99" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="126" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"","loanDateType":"0","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="101" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"6","loanDateType":"","repaymemtWay":"4","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="95" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"","biddingDays":"3"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="loanAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="loanAdd" duration-ms="106" started-at="2019-03-01T22:33:37Z" data-provider="loanAdd" finished-at="2019-03-01T22:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"memberId":"1121713","title":"titlename","amount":"1000","loanRate":"12","loanTerm":"6","loanDateType":"0","repaymemtWay":"4","biddingDays":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loanAdd -->
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.qj.api.auto.cases.caseProcessor@25d250c6]" name="batchWriteBackDatas" is-config="true" duration-ms="412" started-at="2019-03-01T22:33:38Z" finished-at="2019-03-01T22:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+      </class> <!-- com.qj.api.auto.cases.caseProcessor -->
+    </test> <!-- withdraw -->
+  </suite> <!-- 接口项目 -->
+</testng-results>

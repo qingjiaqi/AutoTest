@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口项目" duration-ms="4853" started-at="2019-03-04T11:40:31Z" finished-at="2019-03-04T11:40:36Z">
+    <groups>
+    </groups>
+    <test name="loginSingle" duration-ms="4" started-at="2019-03-04T11:40:31Z" finished-at="2019-03-04T11:40:31Z">
+    </test> <!-- loginSingle -->
+    <test name="withdraw" duration-ms="4826" started-at="2019-03-04T11:40:31Z" finished-at="2019-03-04T11:40:36Z">
+      <class name="com.qj.api.auto.cases.NeedLoginCaseProcessor">
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.qj.api.auto.cases.NeedLoginCaseProcessor@2b6faea6]" name="batchWriteBackDatas" is-config="true" duration-ms="535" started-at="2019-03-04T19:40:36Z" finished-at="2019-03-04T19:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="batchWriteBackDatas" is-config="true" duration-ms="349" started-at="2019-03-04T19:40:36Z" finished-at="2019-03-04T19:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+      </class> <!-- com.qj.api.auto.cases.NeedLoginCaseProcessor -->
+      <class name="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest">
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="1515" started-at="2019-03-04T19:40:32Z" data-provider="registerDate" finished-at="2019-03-04T19:40:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="150" started-at="2019-03-04T19:40:33Z" data-provider="registerDate" finished-at="2019-03-04T19:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="103" started-at="2019-03-04T19:40:34Z" data-provider="registerDate" finished-at="2019-03-04T19:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${notValidMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="115" started-at="2019-03-04T19:40:34Z" data-provider="registerDate" finished-at="2019-03-04T19:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${notValidPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="999" started-at="2019-03-04T19:40:34Z" data-provider="registerDate" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":1,"code":"20110","data":null,"msg":"注册成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as 
+totalNum from member where mobilephone='${toBeRegisterMobilephone}'"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as 
+totalNum from member where mobilephone='${toBeRegisterMobilephone}'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="register" duration-ms="132" started-at="2019-03-04T19:40:35Z" data-provider="registerDate" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="login" duration-ms="87" started-at="2019-03-04T19:40:35Z" data-provider="loginData" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.register" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="login" duration-ms="133" started-at="2019-03-04T19:40:35Z" data-provider="loginData" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.register" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="login" duration-ms="104" started-at="2019-03-04T19:40:35Z" data-provider="loginData" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.register" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${notRegisterYetMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="login" duration-ms="120" started-at="2019-03-04T19:40:35Z" data-provider="loginData" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.register" finished-at="2019-03-04T19:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${wrongPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="login" duration-ms="101" started-at="2019-03-04T19:40:35Z" data-provider="loginData" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.register" finished-at="2019-03-04T19:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toLogin}","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":1,"code":"10001","data":null,"msg":"登录成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="toAddProjectUserId()[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@48fa0f47]" name="toAddProjectUserId" duration-ms="398" started-at="2019-03-04T19:40:36Z" depends-on-methods="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest.login" finished-at="2019-03-04T19:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toAddProjectUserId -->
+      </class> <!-- com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest -->
+    </test> <!-- withdraw -->
+  </suite> <!-- 接口项目 -->
+</testng-results>

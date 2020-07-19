@@ -1,0 +1,9 @@
+2019-02-26 21:27:15  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:46) ]  接口请求地址http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-02-26 21:27:19  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:85) ]  接口响应报文code=[200],result=[{"status":1,"code":"10001","data":null,"msg":"登录成功"}]
+2019-02-26 21:31:26  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:46) ]  接口请求地址http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-02-26 21:31:27  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:85) ]  接口响应报文code=[200],result=[{"status":1,"code":"10001","data":null,"msg":"登录成功"}]
+2019-02-26 21:31:27  [ INFO ]  [ method:com.qj.api.auto.cases.LoginSingle.loginSingle(LoginSingle.java:32) ]  登录接口执行成功
+2019-02-26 21:32:27  [ INFO ]  [ method:com.qj.api.auto.cases.LoginSingle.loginSingle(LoginSingle.java:23) ]  登录使用的参数为{"mobilephone":"18825287006","pwd":"123456"}
+2019-02-26 21:32:27  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:46) ]  接口请求地址http://test.lemonban.com/futureloan/mvc/api/member/login
+2019-02-26 21:32:28  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:85) ]  接口响应报文code=[200],result=[{"status":1,"code":"10001","data":null,"msg":"登录成功"}]
+2019-02-26 21:32:28  [ INFO ]  [ method:com.qj.api.auto.cases.LoginSingle.loginSingle(LoginSingle.java:33) ]  登录接口执行成功

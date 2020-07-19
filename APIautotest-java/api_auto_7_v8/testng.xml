@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  套件-->
+<suite name="接口项目">
+
+	<!-- 测试集/模块 -->
+  <test name="registTest">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.cases.RegisterCase_v7"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <!-- 登录接口 -->
+    <test name="login">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.cases.LoginCase"></class> 
+    </classes>
+  </test> <!-- Test -->
+  <!-- 充值接口 -->
+    <test name="recharge">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.cases.RechargeCase"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

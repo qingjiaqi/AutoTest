@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  套件-->
+<suite name="接口项目">
+
+  <!-- 单个登录供其他鉴权用例调用 -->
+    <test name="loginSingle">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.cases.LoginSingle"></class> 
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- 提现测试用例 -->
+  <test name='withdraw'>
+  <classes>
+  <class name="com.qj.api.auto.cases.Withdraw"></class>
+  </classes>
+  </test>
+ 
+      
+    
+
+</suite> <!-- Suite -->

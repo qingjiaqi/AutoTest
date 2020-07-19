@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  套件-->
+<suite name="接口项目">
+	<!-- 测试集/模块 -->
+  <test name="registTest">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.RegisterCase_v7"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="login">
+  	<!-- 测试类 -->
+    <classes>
+    <!-- 单个的测试类 -->
+      <class name="com.qj.api.auto.LoginCase"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

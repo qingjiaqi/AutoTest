@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口项目" duration-ms="2779" started-at="2019-04-02T13:14:41Z" finished-at="2019-04-02T13:14:44Z">
+    <groups>
+    </groups>
+    <test name="loginSingle" duration-ms="6" started-at="2019-04-02T13:14:41Z" finished-at="2019-04-02T13:14:41Z">
+    </test> <!-- loginSingle -->
+    <test name="withdraw" duration-ms="2758" started-at="2019-04-02T13:14:41Z" finished-at="2019-04-02T13:14:44Z">
+      <class name="com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest">
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@4909b8da]" name="register" duration-ms="2082" started-at="2019-04-02T21:14:42Z" data-provider="registerDate" finished-at="2019-04-02T21:14:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest@4909b8da]" name="register" duration-ms="77" started-at="2019-04-02T21:14:44Z" data-provider="registerDate" finished-at="2019-04-02T21:14:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- com.qj.api.auto.cases.NotNeedLoginCaseProcessorTest -->
+    </test> <!-- withdraw -->
+  </suite> <!-- 接口项目 -->
+</testng-results>

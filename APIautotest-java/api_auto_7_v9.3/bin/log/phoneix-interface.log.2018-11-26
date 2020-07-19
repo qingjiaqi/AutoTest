@@ -1,0 +1,664 @@
+2018-11-26 15:35:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:35:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:35:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterMobilephone}±äÁ¿Öµ:18999999281
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidMobilephone}±äÁ¿Öµ:123456
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notRegisterYetMobilephone}±äÁ¿Öµ:18999999282
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterPassword}±äÁ¿Öµ:123456
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidPassword}±äÁ¿Öµ:12345
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${wrongPassword}±äÁ¿Öµ:1234567
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:35:59  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20108","data":null,"msg":"ÃÜÂë³¤¶È±ØĞëÎª6~18"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"×¢²á³É¹¦"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20110","data":null,"msg":"ÊÖ»úºÅÂëÒÑ±»×¢²á"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:00  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"µÇÂ¼³É¹¦"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20115","data":null,"msg":"ÇëÊäÈë½ğ¶î"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20104","data":null,"msg":"´ËÊÖ»úºÅ¶ÔÓ¦µÄ»áÔ±²»´æÔÚ"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20118","data":null,"msg":"ÇëÊäÈëÊı×Ö"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20116","data":null,"msg":"ÊäÈë½ğ¶îµÄ½ğ¶îĞ¡Êı²»ÄÜ³¬¹ıÁ½Î»"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":{"id":44618,"regname":"Ğ¡ÃÛ·ä","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18999999281","leaveamount":"10000.00","type":"1","regtime":"2018-11-26 15:36:00.0"},"msg":"³äÖµ³É¹¦"}]
+2018-11-26 15:36:01  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:06  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:06  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:06  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${toBeRegisterMobilephone}å˜é‡å€¼:18999999290
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${notValidMobilephone}å˜é‡å€¼:123456
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${notRegisterYetMobilephone}å˜é‡å€¼:18999999291
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${toBeRegisterPassword}å˜é‡å€¼:123456
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${notValidPassword}å˜é‡å€¼:12345
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  å˜é‡å:${wrongPassword}å˜é‡å€¼:1234567
+2018-11-26 21:27:08  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:09  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:09  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20103","data":null,"msg":"å¯†ç ä¸èƒ½ä¸ºç©º"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20103","data":null,"msg":"æ‰‹æœºå·ä¸èƒ½ä¸ºç©º"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20109","data":null,"msg":"æ‰‹æœºå·ç æ ¼å¼ä¸æ­£ç¡®"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20108","data":null,"msg":"å¯†ç é•¿åº¦å¿…é¡»ä¸º6~18"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":1,"code":"10001","data":null,"msg":"æ³¨å†ŒæˆåŠŸ"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€1ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20110","data":null,"msg":"æ‰‹æœºå·ç å·²è¢«æ³¨å†Œ"}]
+2018-11-26 21:27:10  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20103","data":null,"msg":"å¯†ç ä¸èƒ½ä¸ºç©º"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20103","data":null,"msg":"æ‰‹æœºå·ä¸èƒ½ä¸ºç©º"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€2ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":1,"code":"10001","data":null,"msg":"ç™»å½•æˆåŠŸ"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20103","data":null,"msg":"æ‰‹æœºå·ä¸èƒ½ä¸ºç©º"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20115","data":null,"msg":"è¯·è¾“å…¥é‡‘é¢"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20109","data":null,"msg":"æ‰‹æœºå·ç æ ¼å¼ä¸æ­£ç¡®"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20104","data":null,"msg":"æ­¤æ‰‹æœºå·å¯¹åº”çš„ä¼šå‘˜ä¸å­˜åœ¨"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20118","data":null,"msg":"è¯·è¾“å…¥æ•°å­—"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20117","data":null,"msg":"è¯·è¾“å…¥èŒƒå›´åœ¨0åˆ°50ä¸‡ä¹‹é—´çš„æ­£æ•°é‡‘é¢"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20117","data":null,"msg":"è¯·è¾“å…¥èŒƒå›´åœ¨0åˆ°50ä¸‡ä¹‹é—´çš„æ­£æ•°é‡‘é¢"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":0,"code":"20116","data":null,"msg":"è¾“å…¥é‡‘é¢çš„é‡‘é¢å°æ•°ä¸èƒ½è¶…è¿‡ä¸¤ä½"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  è°ƒç”¨æ¥å£å‰çš„æ•°æ®éªŒè¯
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„url
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  æ ¹æ®æ¥å£ç¼–å·ã€3ã€‘è·å–åˆ°è¯·æ±‚çš„æ¥å£ç±»å‹
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  æ›¿æ¢å˜é‡
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  å¼€å§‹è°ƒç”¨æ¥å£
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  æ¥å£è¯·æ±‚åœ°å€http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  æ¥å£å“åº”æŠ¥æ–‡code=[200],result=[{"status":1,"code":"10001","data":{"id":44696,"regname":"å°èœœèœ‚","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18999999290","leaveamount":"10000.00","type":"1","regtime":"2018-11-26 21:27:10.0"},"msg":"å……å€¼æˆåŠŸ"}]
+2018-11-26 21:27:11  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  æ¥å£è°ƒç”¨åæ•°æ®æ ¡éªŒ
+2018-11-26 21:27:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterMobilephone}±äÁ¿Öµ:18999999291
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidMobilephone}±äÁ¿Öµ:123456
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notRegisterYetMobilephone}±äÁ¿Öµ:18999999292
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterPassword}±äÁ¿Öµ:123456
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidPassword}±äÁ¿Öµ:12345
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${wrongPassword}±äÁ¿Öµ:1234567
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:42  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20108","data":null,"msg":"ÃÜÂë³¤¶È±ØĞëÎª6~18"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"×¢²á³É¹¦"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20110","data":null,"msg":"ÊÖ»úºÅÂëÒÑ±»×¢²á"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:43  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"µÇÂ¼³É¹¦"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20115","data":null,"msg":"ÇëÊäÈë½ğ¶î"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20104","data":null,"msg":"´ËÊÖ»úºÅ¶ÔÓ¦µÄ»áÔ±²»´æÔÚ"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20118","data":null,"msg":"ÇëÊäÈëÊı×Ö"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20116","data":null,"msg":"ÊäÈë½ğ¶îµÄ½ğ¶îĞ¡Êı²»ÄÜ³¬¹ıÁ½Î»"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":{"id":44697,"regname":"Ğ¡ÃÛ·ä","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18999999291","leaveamount":"10000.00","type":"1","regtime":"2018-11-26 21:27:42.0"},"msg":"³äÖµ³É¹¦"}]
+2018-11-26 21:27:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:39  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:39  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:39  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterMobilephone}±äÁ¿Öµ:18999999292
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidMobilephone}±äÁ¿Öµ:123456
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notRegisterYetMobilephone}±äÁ¿Öµ:18999999293
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${toBeRegisterPassword}±äÁ¿Öµ:123456
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${notValidPassword}±äÁ¿Öµ:12345
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  ±äÁ¿Ãû:${wrongPassword}±äÁ¿Öµ:1234567
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:40  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20108","data":null,"msg":"ÃÜÂë³¤¶È±ØĞëÎª6~18"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"×¢²á³É¹¦"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾1¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/register
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20110","data":null,"msg":"ÊÖ»úºÅÂëÒÑ±»×¢²á"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÃÜÂë²»ÄÜÎª¿Õ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20111","data":null,"msg":"ÓÃ»§Ãû»òÃÜÂë´íÎó"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾2¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/login
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":null,"msg":"µÇÂ¼³É¹¦"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20103","data":null,"msg":"ÊÖ»úºÅ²»ÄÜÎª¿Õ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20115","data":null,"msg":"ÇëÊäÈë½ğ¶î"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20109","data":null,"msg":"ÊÖ»úºÅÂë¸ñÊ½²»ÕıÈ·"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20104","data":null,"msg":"´ËÊÖ»úºÅ¶ÔÓ¦µÄ»áÔ±²»´æÔÚ"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20118","data":null,"msg":"ÇëÊäÈëÊı×Ö"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20117","data":null,"msg":"ÇëÊäÈë·¶Î§ÔÚ0µ½50ÍòÖ®¼äµÄÕıÊı½ğ¶î"}]
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:41  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":0,"code":"20116","data":null,"msg":"ÊäÈë½ğ¶îµÄ½ğ¶îĞ¡Êı²»ÄÜ³¬¹ıÁ½Î»"}]
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:34) ]  µ÷ÓÃ½Ó¿ÚÇ°µÄÊı¾İÑéÖ¤
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:50) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄurl
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:55) ]  ¸ù¾İ½Ó¿Ú±àºÅ¡¾3¡¿»ñÈ¡µ½ÇëÇóµÄ½Ó¿ÚÀàĞÍ
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:61) ]  Ìæ»»±äÁ¿
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:66) ]  ¿ªÊ¼µ÷ÓÃ½Ó¿Ú
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  ½Ó¿ÚÇëÇóµØÖ·http://test.lemonban.com/futureloan/mvc/api/member/recharge
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  ½Ó¿ÚÏìÓ¦±¨ÎÄcode=[200],result=[{"status":1,"code":"10001","data":{"id":44698,"regname":"Ğ¡ÃÛ·ä","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"18999999292","leaveamount":"10000.00","type":"1","regtime":"2018-11-26 21:28:40.0"},"msg":"³äÖµ³É¹¦"}]
+2018-11-26 21:28:42  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:77) ]  ½Ó¿Úµ÷ÓÃºóÊı¾İĞ£Ñé

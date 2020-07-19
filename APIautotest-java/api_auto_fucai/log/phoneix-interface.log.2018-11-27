@@ -1,0 +1,268 @@
+2018-11-27 21:16:29  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:16:29  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:16:29  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterMobilephone}变量值:18999999309
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidMobilephone}变量值:123456789
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notRegisterYetMobilephone}变量值:18999999310
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterPassword}变量值:123456
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidPassword}变量值:12345
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${wrongPassword}变量值:1234567
+2018-11-27 21:16:30  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:16:31  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:16:31  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=U9k42DiP37ur6Iq73mWYl19A9t9Za0um; path=/; expires=Wed, 28 Nov 2018 13:16:34 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:34 GMT
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=NETD_jPW8gliswQDp8kMJL4bkQw; path=/; expires=Wed, 28 Nov 2018 13:16:34 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:34 GMT
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=GJuX5eFebZgDc8JkWgwaVf_-an55PpXZ; path=/; expires=Wed, 28 Nov 2018 13:16:34 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:34 GMT
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=4-TfuDenuznDVpEipuN8LaY6sW4; path=/; expires=Wed, 28 Nov 2018 13:16:34 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:34 GMT
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=sOh8kJ8wcEtN1J1Acl_DsJWXbRWo-h-7; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=Akpef0awLttaLiuuBxtud6AMa0I; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=gInRUaSQZrum7QtDmTEKs3aopPSlzMdt; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:34  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=CNxaf2hiEdK5qNUZVrsLq3HvqSY; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:16:34  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:16:35  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=9GBNb6WbQIrc2pnBZKrV2BU-MC1crkYm; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:35  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=zw0UfvzVujc0DWcXYxBZb3yEynU; path=/; expires=Wed, 28 Nov 2018 13:16:35 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:16:35 GMT
+2018-11-27 21:16:35  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:16:35  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:52:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:52:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:52:44  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:52:44  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterMobilephone}变量值:18999999311
+2018-11-27 21:52:44  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidMobilephone}变量值:123456789
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notRegisterYetMobilephone}变量值:18999999312
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterPassword}变量值:123456
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidPassword}变量值:12345
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${wrongPassword}变量值:1234567
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:52:45  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=YpGhidDfGHmON_M4x5khkY0ZvDwjX3LQ; path=/; expires=Wed, 28 Nov 2018 13:52:46 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:46 GMT
+2018-11-27 21:52:45  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=v7e5YwjHY0-avwXWULyeAIe1jiY; path=/; expires=Wed, 28 Nov 2018 13:52:46 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:46 GMT
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:52:45  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=IKxI1gnql97ADKhcKNJAYYXAfVCgtfe2; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=ChtEfrl0XlVksXwp5gnzbCnNS7o; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=5Sm16vK-HbQSPJLdEopBgmXQR1JGsl_E; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=2EVQHuRAOJACI7tj1tnuEpedmXE; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=ULKVsk123_JZmJPIUUgZX5SPwtfNGgBh; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=cBJzN7m03qXyRDFJf0o0DaSCakg; path=/; expires=Wed, 28 Nov 2018 13:52:49 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:49 GMT
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid=3a26cZ5fe4leBxVCVMVkhpikJUAsPT4m; path=/; expires=Wed, 28 Nov 2018 13:52:50 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:50 GMT
+2018-11-27 21:52:49  [ WARN ]  [ method:org.apache.http.client.protocol.ResponseProcessCookies.processCookies(ResponseProcessCookies.java:129) ]  Invalid cookie header: "Set-Cookie: koa.sid.sig=AsVKHPkwp4Fy0N-xBKEhSZQwwA4; path=/; expires=Wed, 28 Nov 2018 13:52:50 GMT; httponly". Invalid 'expires' attribute: Wed, 28 Nov 2018 13:52:50 GMT
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:74) ]  接口响应报文code=[200],result=[{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "data": {
+    "user_id": "WF235OWNOXU",
+    "user_name": "吴系挂",
+    "user_tel": "13800138000",
+    "user_avatar": "http://xxx/Upfile/Image/avatar/avatar.png",
+    "access_token": "ASDFPWFAWPOFAWFASFBPIOAWEFNAWFOIAWGFIO"
+  }
+}]
+2018-11-27 21:52:49  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 22:06:56  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 22:06:56  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 22:06:56  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterMobilephone}变量值:18999999311
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidMobilephone}变量值:123456789
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notRegisterYetMobilephone}变量值:18999999312
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${toBeRegisterPassword}变量值:123456
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${notValidPassword}变量值:12345
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.VariableUtil.loadVariablesToMap(VariableUtil.java:99) ]  变量名:${wrongPassword}变量值:1234567
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 22:06:57  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:77) ]  接口响应报文code=[400],result=[Bad Request]
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:77) ]  接口响应报文code=[400],result=[Bad Request]
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:77) ]  接口响应报文code=[400],result=[Bad Request]
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:77) ]  接口响应报文code=[400],result=[Bad Request]
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:35) ]  调用接口前的数据验证
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:51) ]  根据接口编号【1】获取到请求的url
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:56) ]  根据接口编号【1】获取到请求的接口类型
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:62) ]  替换变量
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:67) ]  开始调用接口
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:39) ]  接口请求地址http://rap2api.taobao.org/app/mock/116450//api/app/login/loginpwd
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.util.HttpUnit.doPost(HttpUnit.java:77) ]  接口响应报文code=[400],result=[Bad Request]
+2018-11-27 22:06:58  [ INFO ]  [ method:com.qj.api.auto.cases.BaseProcessor.test1(BaseProcessor.java:78) ]  接口调用后数据校验

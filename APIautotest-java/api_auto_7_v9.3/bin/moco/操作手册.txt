@@ -1,0 +1,8 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8123 -c  startup1.json
+
+上面那个是启动moco服务的命令  (执行前要进入到文件目录)
+java -jar  执行jar包名令
+./moco-runner-0.11.0-standalone.jar  mocojar的路径   
+ http  协议类
+ -p  端口
+ -c 后面接的是json文件

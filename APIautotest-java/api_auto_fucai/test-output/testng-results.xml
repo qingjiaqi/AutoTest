@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="接口项目" duration-ms="3938" started-at="2019-03-02T11:43:59Z" finished-at="2019-03-02T11:44:03Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="3703" started-at="2019-03-02T11:43:59Z" finished-at="2019-03-02T11:44:03Z">
+      <class name="com.qj.api.auto.cases.LoginCase">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.LoginCase@7a5d012c]" name="test1" duration-ms="2352" started-at="2019-03-02T19:44:00Z" data-provider="datas" finished-at="2019-03-02T19:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"meid":"FJH5T18819022280","password":"123456","mobile_type":"android","mobile":"18825287005"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.LoginCase@7a5d012c]" name="test1" duration-ms="118" started-at="2019-03-02T19:44:02Z" data-provider="datas" finished-at="2019-03-02T19:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"meid":"FJH5T18819022280","password":"123456","mobile_type":"android","mobile":""}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20103",data:null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.LoginCase@7a5d012c]" name="test1" duration-ms="114" started-at="2019-03-02T19:44:02Z" data-provider="datas" finished-at="2019-03-02T19:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"meid":"FJH5T18819022280","password":"","mobile_type":"android","mobile":"18825287005"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.LoginCase@7a5d012c]" name="test1" duration-ms="120" started-at="2019-03-02T19:44:03Z" data-provider="datas" finished-at="2019-03-02T19:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"meid":"FJH5T18819022280","password":"123456","mobile_type":"","mobile":"18825287005"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.LoginCase@7a5d012c]" name="test1" duration-ms="130" started-at="2019-03-02T19:44:03Z" data-provider="datas" finished-at="2019-03-02T19:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{"meid":"","password":"123456","mobile_type":"android","mobile":"18825287005"}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","data":null,"msg":"登录成功"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.qj.api.auto.cases.LoginCase -->
+    </test> <!-- login -->
+    <test name="info" duration-ms="151" started-at="2019-03-02T11:44:03Z" finished-at="2019-03-02T11:44:03Z">
+      <class name="com.qj.api.auto.cases.InfoCase">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qj.api.auto.cases.InfoCase@15975490]" name="test1" duration-ms="150" started-at="2019-03-02T19:44:03Z" data-provider="datas" finished-at="2019-03-02T19:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[{}]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:com.qj.api.auto.cases.InfoCase@15975490]" name="batchWriteBackDatas" is-config="true" duration-ms="266" started-at="2019-03-02T19:44:03Z" finished-at="2019-03-02T19:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+      </class> <!-- com.qj.api.auto.cases.InfoCase -->
+    </test> <!-- info -->
+  </suite> <!-- 接口项目 -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [接口项目]">
+  <test name="withdraw(failed)">
+    <classes>
+      <class name="com.qj.api.auto.cases.Withdraw">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.qj.api.auto.cases.Withdraw -->
+    </classes>
+  </test> <!-- withdraw(failed) -->
+</suite> <!-- Failed suite [接口项目] -->

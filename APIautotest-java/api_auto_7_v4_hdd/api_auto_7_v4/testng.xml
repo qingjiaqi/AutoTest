@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <!-- <test name="regist">
+    <classes>
+      <class name="com.lemon.api.auto.cases.RegisterCase"/>
+    </classes>
+  </test> -->
+  <test name="login">
+    <classes>
+      <class name="com.lemon.api.auto.caces.LoginCase"/>
+    </classes>
+  </test> 
+  <test name="rechargeCase">
+    <classes>
+      <class name="com.lemon.api.auto.caces.RechargeCase"/>
+    </classes>
+  </test> 
+</suite> 
