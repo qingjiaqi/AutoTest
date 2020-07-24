@@ -1,0 +1,9 @@
+2019-11-24 22:19:23,244 - [register_login.py-->line:25] - INFO: 读取【register】中所有数据完成
+2019-11-24 22:19:23,246 - [register_login.py-->line:28] - INFO: 开始执行注册接口测试用例
+2019-11-24 22:19:25,347 - [do_mysql.py-->line:47] - INFO: 执行的sql语句为【SELECT * FROM `member` WHERE MobilePhone=18898598775】
+2019-11-24 22:19:25,443 - [text_replace.py-->line:26] - INFO: 数据替换完成【{"mobilephone":"18898598775","pwd":"123456","regname":"mesen"}】
+2019-11-24 22:19:25,446 - [do_mysql.py-->line:47] - INFO: 执行的sql语句为【SELECT * FROM `member` WHERE MobilePhone=18822502523】
+2019-11-24 22:19:25,543 - [text_replace.py-->line:26] - INFO: 数据替换完成【{"mobilephone":"18822502523","pwd":"123457","regname":""}】
+2019-11-24 22:19:25,545 - [do_mysql.py-->line:47] - INFO: 执行的sql语句为【SELECT * FROM `member` WHERE MobilePhone=18876936364】
+2019-11-24 22:19:25,643 - [text_replace.py-->line:24] - ERROR: 这个【phone】变量没有设置值，请检查
+2019-11-24 22:42:58,425 - [do_mysql.py-->line:47] - INFO: 执行的sql语句为【select *  from member limit 10】
