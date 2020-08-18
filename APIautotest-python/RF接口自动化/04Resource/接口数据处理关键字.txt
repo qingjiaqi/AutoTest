@@ -1,0 +1,50 @@
+*** Settings ***
+Resource          公共关键字.txt
+
+*** Keywords ***
+获取鉴权
+    Set Test Variable    ${test_name}    获取鉴权
+    ${login_uri}    ${param}    ${assert_info}    ${headers_info}    获取请求参数    login    login_case1
+    ${method}    Set Variable    get
+    ${url}    Set Variable    ${APIurl}/${login_uri}
+    ${request_type}    Set Variable    form
+    ${param}    替换形参为实参    ${param}
+    ${url}    替换形参为实参    ${url}
+    ${code}    ${response}    ${request_url}    ${request_param}    ${response_cookies}    Excute Http Request    ${method}
+    ...    url=${url}    params=${param}    headers=${headers_info}    request_type=${request_type}
+    Set Test Variable    ${headers}    ${headers_info}
+    Set Test Variable    ${response_code}    ${code}
+    Set Test Variable    ${response_data}    ${response}
+    Set Test Variable    ${request_url}    ${request_url}
+    Set Test Variable    ${request_param}    ${request_param}
+    Set Test Variable    ${method}    ${method}
+    Log Many    请求方式：${method}    请求地址：${request_url}    请求头信息：${headers}    请求参数：${request_param}    状态码：${code}    响应数据：${response}
+    断言code相同    ${code}    200
+    断言实际结果包含预期结果+定位    ${response}    登录成功    $.msg
+    [Return]    ${response_cookies}
+
+定期获取鉴权
+    [Arguments]    ${expiration_time}=300
+    ${current_time}    Get Time
+    ${time_difference}    Subtract Date From Date    ${current_time}    ${get_authentication_time}
+    Log Many    设定过期时间：${expiration_time}s    时间差：${time_difference}s    当前时间：${current_time}    获取token时间：${get_authentication_time}
+    ${get_flag}    Run Keyword If    ${time_difference}>${expiration_time}    Set Variable    1
+    ...    ELSE    set variable    0
+    : FOR    ${i}    IN RANGE    ${get_flag}
+    \    ${response_cookies}    获取鉴权
+    \    ${get_flag}    Set Variable    0
+    \    ${get_authentication_time}    Get Time
+    \    Set Suite Variable    ${response_cookies}    ${response_cookies}
+    \    Set Suite Variable    ${get_authentication_time}    ${get_authentication_time}
+    ${response_cookies}    Run Keyword If    '${get_flag}'=='0'    Set Variable    ${response_cookies}
+    [Return]    ${response_cookies}
+
+获取json中任意节点值及个数
+    [Arguments]    ${data}    ${json_path}    ${data_index}=1
+    ${result_data}    ${count}    Find Value By Json Path    ${data}    ${json_path}    ${data_index}
+    [Return]    ${result_data}    ${count}
+
+获取json中任意节点值
+    [Arguments]    ${data}    ${json_path}    ${data_index}=1
+    ${result_data}    ${count}    Find Value By Json Path    ${data}    ${json_path}    ${data_index}
+    [Return]    ${result_data}

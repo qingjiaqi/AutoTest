@@ -1,0 +1,133 @@
+*** Settings ***
+Resource          ../04Resource/公共关键字.txt
+Library           json
+
+*** Test Cases ***
+创建字典及给字典添加值
+    ${dict_1}    Create Dictionary    name    张三    #创建字典第一种方法
+    ${dict_2}    Create Dictionary    name=张三    #创建字典第二种方法
+    ${aa}    Create Dictionary    #创建一个空字典
+    set to Dictionary    ${aa}    name    zhang    #往字典里面添加值
+    Set To Dictionary    ${aa}    age=18    #往字典里面添加值，两种都可以
+    log    ${aa}
+    ${type}    Evaluate    type(${aa})
+
+字典json互转
+    [Documentation]    json与字典互转------需要用了 library json;
+    ...    HttpLibrary.HTTP
+    ${params}    Create Dictionary    name=zhang散    age=19
+    #字典转json
+    ${json}    json.Dumps    ${params}    ensure_ascii=False
+    #json转字典
+    ${dic}    json.Loads    ${json}
+
+字典里面取值
+    ${dict}    Set Variable    {"status": 1, "data": "", "code": "10001", "msg": "登录成功"}
+    ${dict}    json转字典    ${dict}
+    ${type}    Evaluate    type(${dict})
+    log    ${type}
+    #取出指定key，status的值
+    ${status}    Get From Dictionary    ${dict}    msg    #从字典中获取到指定的值
+    ${status}    Catenate    获取到的status值为：    ${status}    #将多个值拼接
+    #拿出字典中所有的值
+    ${values}    Get Dictionary Values    ${dict}
+    ${type}    Evaluate    type( ${values})
+    ${values}    Catenate    获取到字典中所有的值    ${values}
+    #拿到字典中所有的key
+    ${keys}    Get Dictionary Keys    ${dict}
+    ${keys}    Catenate    获取到字典中所有的key    ${keys}
+    #拿出item，并按key排序
+    ${items}    Get Dictionary Items    ${dict}
+    ${items}    Catenate    获取到字典中所有的元素    ${items}
+
+@{}和${}区别
+    [Documentation]    @如果是字典的话会将所有的key一个一个拆分
+    ...    @如果是集合的话会将所有的值一个一个拆分
+    ${dic_1}    Create Dictionary    name=张三    age=18
+    log    ${dic_1}
+    Log Many    @{dic_1}
+    : FOR    ${i}    IN    @{dic_1}
+    \    ${i}    Catenate    循环体    ${i}
+    \    log    ${i}
+
+list创建和取值
+    @{list_1}    Create List    1    2    3
+    Log Many    @{list_1}
+    log    @{list_1}[0]
+    log    ${list_1[0]}
+
+Catenate字符拼接使用
+    [Documentation]    SEPARATOR=--- 表示在拼接的字符串中间用--隔开
+    ${hi}    Catenate    SEPARATOR=---    hello    world
+    log    ${hi}
+    Comment    Log Many    q    w    e
+
+时间操作
+    #获取当前时间
+    ${time}    Get Time
+    #睡眠
+    Sleep    3    #单位是秒
+    ${time2}    Get Time
+    #计算两个时间点差了多少时间
+    ${ctime}    Subtract Date From Date    ${time2}    ${time}
+
+生成随机数
+    ${d}    Evaluate    random.randint(1000, 9999)    random
+    log    ${d}
+
+json中取值
+    ${dict}    Set Variable    {"status": 1, "data": null, "code": "10001", "msg": "登录成功"}
+    ${dict}    json转字典    ${dict}
+    ${json}    字典转json    ${dict}
+    Comment    #这样取出的值会带引号    #${msg} = "登录成功"    解决办法将json转为字典
+    ${msg}    Get Json Value    ${json}    /msg    #这样取出的值会带引号
+
+解析多层json
+    ${jsons}    Set Variable    {"one":{"towe":{"three":{"name":"zhang"}}}}    #需要将空格去掉
+    Comment    ${jsons}    json转字典    ${jsons}
+    Comment    ${jsons_1}    字典转json    ${jsons}
+    Comment    ${type}    Evaluate    type(${jsons_1})
+    Comment    log    ${type}
+    Comment    ${one}    Get Json Value    ${jsons_1}    /one/towe
+    #方法二    这种是最好的
+    Comment    Comment    ${str_json}    字典转json    ${jsons}
+    ${value}    Get Json Value    ${jsons}    /one/towe
+    ${type}    Evaluate    type(${jsons})
+
+if判断
+    ${a}    Set Variable    2
+    ${b}    Set Variable    5
+    Comment    Run Keyword If    '${a}'=='2' and '${b}'=='5'    log    a=2
+    Comment    Run Keyword If    ${a}==2 and ${b}==5    Run Keywords    log    yes
+    ...    AND    log    no
+    Comment    #在if语句体中执行    多个关键字
+    Run Keyword If    ${a}==2    log    true
+
+解析json数组[]
+    ${arr_json}    Set Variable    {"one":{"towe":[{"name1":"zhang"},{"name2":"li"}]}}
+    ${dic_type}    json转字典    ${arr_json}
+    ${json_type}    字典转json    ${dic_type}
+    Comment    获取值
+    ${value}    Get Json Value    ${json_type}    /one/towe
+    ${value_1}    Evaluate    eval(str(${value}))
+    ${value_1}    Set Variable    ${value_1[0]}
+
+json
+    ${jsons}    Set Variable    {"one":{"towe":{"three":{"name":"zhang"}}}}
+    ${value}    Get Json Value    ${jsons}    /one/towe/three/name
+    ${type}    Evaluate    type(${jsons})
+
+包含
+    Should Contain    qwer    q
+
+获取rf中所有变量
+    ${a}    Set Variable    qingjia
+    ${variable}    Get Variables
+    log    ${variable}
+
+获取rf路径
+    log    ${CURDIR}    #当前文件夹路径
+    log    ${EXECDIR}    #当前项目根路径
+
+test
+    删除参数中指定键值对    {"pwd2": "2", "pwd1": "1","mobilephone": []}    mobilephone    pwd2

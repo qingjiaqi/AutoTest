@@ -1,0 +1,92 @@
+*** Settings ***
+Library           ../02Lib/HttpRequestProcessing.py
+Library           ../02Lib/UtilityTools.py
+Library           Collections
+Library           json
+Resource          请求关键字.txt
+Resource          接口数据处理关键字.txt
+Library           DateTime
+Resource          断言关键字.txt
+Library           re
+Library           String
+
+*** Keywords ***
+读取数据并设置为变量
+    [Arguments]    ${filepath}    ${sheet_name}
+    ${variable_datas}    Read Test Date    ${filepath}    ${sheet_name}
+    log    获取到的变量:\n${variable_datas}
+    : FOR    ${datas}    IN    @{variable_datas}
+    \    Set Suite Variable    ${${datas}[0]}    ${datas}[1]
+    [Return]    ${variable_datas}
+
+初始化环境变量测试数据及环境调度
+    [Arguments]    ${testcase_sheet_name}    ${variable_sheet_name}=
+    Set Global Variable    ${evn}    sit    #环境调度
+    #读取公共变量
+    ${varialbe_file_path}    Set Variable    ${EXECDIR}/03TestData/varialbe_${evn}.xlsx
+    Set Global Variable    ${testdata_file_path}    ${EXECDIR}/03TestData/testdata_${evn}.xlsx
+    读取数据并设置为变量    ${varialbe_file_path}    commonvariable
+    ${testcases}    Get Excel Casedata All    ${testdata_file_path}    ${testcase_sheet_name}
+    Run Keyword If    '${variable_sheet_name}'!=''    读取数据并设置为变量    ${varialbe_file_path}    ${variable_sheet_name}
+    Set Suite Variable    ${get_authentication_time}    2020-04-27 11:30:22    #定期获取鉴权关键字使用，初始化变量
+    Set Suite Variable    ${testcases}    ${testcases}
+
+替换形参为实参
+    [Arguments]    ${param}
+    ${variable_data}    Get Variables
+    log    环境变量：\n ${variable_data}
+    ${param}    Replace Variable    ${param}    ${variable_data}
+    [Return]    ${param}
+
+删除参数中指定键值对
+    [Arguments]    ${params}    @{delete_key}
+    log    ******************************开始删除参数中的键值对，原始数据为:${params}******************************
+    ${new_params}    ${context_log}    Delete Params    ${params}    @{delete_key}
+    ${log_lenth}    Get Length    ${context_log}
+    : FOR    ${i}    IN RANGE    ${log_lenth}
+    \    log    ${context_log}[${i}]
+    log    ******************************删除参数中的键值对结束，得到的数据为:${new_params}******************************
+    [Return]    ${new_params}
+
+获取指定测试用例数据-数据源中
+    [Arguments]    ${datas}    ${target_case_id}
+    Log Many    数据源数据为：${datas}    用例id为： ${target_case_id}
+    : FOR    ${data}    IN    @{datas}
+    \    ${uri}    获取json中任意节点值    ${data}    $.uri
+    \    ${method}    获取json中任意节点值    ${data}    $.method
+    \    ${header_data}    获取json中任意节点值    ${data}    $.header_data
+    \    ${request_parames}    获取json中任意节点值    ${data}    $.request_parames
+    \    ${caseid}    获取json中任意节点值    ${data}    $.caseid
+    \    Exit For Loop If    '${caseid}'=='${target_case_id}'
+    Log Many    获取到的uri为：${uri}    获取到的请求方式为：${method}    获取到的请求头为：${header_data}    获取到的请求参数为：${request_parames}    获取到的用例id为：${caseid}
+    [Return]    ${uri}    ${method}    ${header_data}    ${request_parames}    ${caseid}
+
+获取指定测试用例数据-sheetname
+    [Arguments]    ${testcase_sheet_name}    ${target_case_id}
+    Log Many    指定sheetname为：${testcase_sheet_name}
+    ${testcases}    Get Excel Casedata All    ${testdata_file_path}    ${testcase_sheet_name}
+    Log Many    数据源数据为：${testcases}    用例id为： ${target_case_id}
+    : FOR    ${data}    IN    @{testcases}
+    \    ${uri}    获取json中任意节点值    ${data}    $.uri
+    \    ${method}    获取json中任意节点值    ${data}    $.method
+    \    ${header_data}    获取json中任意节点值    ${data}    $.header_data
+    \    ${request_parames}    获取json中任意节点值    ${data}    $.request_parames
+    \    ${caseid}    获取json中任意节点值    ${data}    $.caseid
+    \    Exit For Loop If    '${caseid}'=='${target_case_id}'
+    Log Many    获取到的uri为：${uri}    获取到的请求方式为：${method}    获取到的请求头为：${header_data}    获取到的请求参数为：${request_parames}    获取到的用例id为：${caseid}
+    [Return]    ${uri}    ${method}    ${header_data}    ${request_parames}    ${caseid}
+
+获取请求参数通过用例id
+    [Arguments]    ${target_case_id}    ${sheet_name}=
+    Log Many    期望获取的用例id为：${target_case_id}    传入的sheetname为：${sheet_name}
+    ${uri}    ${method}    ${header_data}    ${request_parames}    ${caseid}    Run Keyword If    '${sheet_name}'==''
+    ...    获取指定测试用例数据-数据源中    ${testcases}    ${target_case_id}
+    ...    ELSE    获取指定测试用例数据-sheetname    ${sheet_name}    ${target_case_id}
+    [Return]    ${uri}    ${method}    ${request_parames}    ${header_data}    ${caseid}
+
+删除无效参数
+    [Arguments]    ${text_data}    ${delete_flag}=None
+    Log Many    处理前数据：${text_data}    删除标记：${delete_flag}
+    ${processed_data}    Delete Invalid Data    ${text_data}    ${delete_flag}
+    Log    处理后数据：${processed_data}
+    [Return]    ${processed_data}

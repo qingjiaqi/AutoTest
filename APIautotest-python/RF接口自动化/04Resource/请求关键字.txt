@@ -1,0 +1,33 @@
+*** Settings ***
+Resource          公共关键字.txt
+
+*** Keywords ***
+执行HTTP请求
+    [Arguments]    ${uri}    ${method}    ${param}    ${headers}=    ${request_type}=json    ${in_cookies}=
+    [Documentation]    注释：执行http请求
+    Comment    ${cookies}    获取鉴权
+    Comment    ${get_cookies}    定期获取鉴权
+    Comment    ${cookies}    Set Variable If    '${in_cookies}'!=''    ${in_cookies}    ${get_cookies}
+    ${url}    Set Variable    ${APIurl}/${uri}
+    log    =====================================开始替换形参为实参=====================================
+    ${param}    替换形参为实参    ${param}
+    ${url}    替换形参为实参    ${url}
+    ${headers}    替换形参为实参    ${headers}
+    log    =====================================替换形参为实参结束=====================================
+    Log Many    替换后的地址：${url}    替换后的参数：${param}    替换后的请求头：${headers}
+    log    =====================================开始删除无效数据=====================================
+    ${param}    删除无效参数    ${param}
+    ${url}    删除无效参数    ${url}
+    ${headers}    删除无效参数    ${headers}
+    log    =====================================删除无效数据结束=====================================
+    Log Many    删除无效数据后的地址：${url}    删除无效数据后的数据：${param}    删除无效数据后的请求头：${headers}
+    ${response_code}    ${response_data}    ${request_url}    ${request_param}    ${response_cookies}    Excute Http Request    method=${method}
+    ...    url=${url}    params=${param}    headers=${headers}    request_type=${request_type}    cookies=${in_cookies}
+    Set Test Variable    ${headers}    ${headers}
+    Set Test Variable    ${response_code}    ${response_code}
+    Set Test Variable    ${response_data}    ${response_data}
+    Set Test Variable    ${request_url}    ${request_url}
+    Set Test Variable    ${request_param}    ${request_param}
+    Set Test Variable    ${method}    ${method}
+    Log Many    请求方式：${method}    请求地址：${request_url}    请求头：${headers}    请求参数：${request_param}    状态码：${response_code}    响应数据：${response_data}
+    [Return]    ${response_code}    ${response_data}

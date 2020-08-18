@@ -1,0 +1,39 @@
+*** Settings ***
+Resource          公共关键字.txt
+
+*** Keywords ***
+断言code相同
+    [Arguments]    ${actual_code}    ${expect_code}    ${msg}=
+    ${temp_message}    Set Variable If    '${msg}'==''    预期code与实际code不相同    ${msg}
+    Should Be Equal As Integers    ${actual_code}    ${expect_code}    *****************************断言失败：${temp_message}***************************** \n<br>当前步骤名称：${test_name}\n<br>预期code:${expect_code}\n<br>实际code：${actual_code}\n<br> 请求方式：${method}\n<br> 请求url：${request_url}\n<br> 请求头：${headers}\n<br> 请求参数：${request_param}\n<br> 响应状态码：${response_code}\n<br> 响应参数：${response_data}\n<br>
+
+断言字符串A中包含字符串B
+    [Arguments]    ${A}    ${B}    ${msg}=
+    ${temp_message}    Set Variable If    '${msg}'==''    返回字符串中未包含预期的字符串    ${msg}
+    ${flag}    Sub In Base    ${A}    ${B}
+    Should Be True    ${flag}    *****************************断言失败：${temp_message}***************************** \n<br>当前步骤名称：${test_name}\n<br>实际返回结果未包含预期数据\n<br>预期数据:${B}\n<br>实际数据：${A}\n<br> 请求方式：${method}\n<br> 请求url：${request_url}\n<br> 请求头：${headers}\n<br> 请求参数：${request_param}\n<br> 响应状态码：${response_code}\n<br> 响应参数：${response_data}\n<br>
+
+断言A大于B
+    [Arguments]    ${A}    ${B}    ${msg}=
+    ${temp_message}    Set Variable If    '${msg}'==''    A的值没大于B的值    ${msg}
+    ${A}    Evaluate    int(${A})
+    ${B}    Evaluate    int(${B})
+    Should Be True    ${A}>${B}    *****************************A>B断言失败：${temp_message}*****************************当前步骤名称：${test_name}\n<br> \n<br>A的值应该大于B的值\n<br>A的值为【${A}】\n<br>B的值为【${B}】\n<br> 请求方式：${method}\n<br> 请求url：${request_url}\n<br> 请求头：${headers}\n<br> 请求参数：${request_param}\n<br> 响应状态码：${response_code}\n<br> 响应参数：${response_data}\n<br>
+
+断言实际结果包含预期结果
+    [Arguments]    ${actual_data}    ${expect_data}    ${msg}=
+    断言字符串A中包含字符串B    ${actual_data}    ${expect_data}    ${msg}
+
+断言实际结果包含预期结果+定位
+    [Arguments]    ${json_data}    ${expect}    ${json_path}    ${msg}=
+    ${get_data}    获取json中任意节点值    ${json_data}    ${json_path}
+    断言字符串A中包含字符串B    ${get_data}    ${expect}    ${msg}
+
+断言请求返回数据
+    [Arguments]    ${assert_info}    ${response}
+    ${assert_info}    删除参数中指定键值对    ${assert_info}    http_code
+    ${assert_info}    Evaluate    ${assert_info}
+    ${keys}    Get Dictionary Keys    ${assert_info}
+    :FOR    ${key}    IN    @{keys}
+    \    ${value}    Get From Dictionary    ${assert_info}    ${key}
+    \    断言实际结果包含预期结果    ${response}    "${key}":"${value}"

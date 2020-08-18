@@ -1,0 +1,12 @@
+*** Settings ***
+Suite Setup       初始化环境变量测试数据及环境调度    createVolume    swn-01
+Resource          ../04Resource/公共关键字.txt
+
+*** Test Cases ***
+创建数据卷
+    ${uri}    ${method}    ${request_parames}    ${header_data}    ${caseid}    获取请求参数通过用例id    recharge_case1
+    ${response_code}     ${response_data}    执行HTTP请求    ${uri}    ${method}    ${request_parames}    ${header_data}
+
+创建数据卷2
+    ${uri}    ${method}    ${request_parames}    ${header_data}    ${caseid}    获取请求参数通过用例id    recharge_case2
+    ${response_code}     ${response_data}    执行HTTP请求    ${uri}    ${method}    ${request_parames}    ${header_data}
